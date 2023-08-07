@@ -6,15 +6,46 @@
     <link rel="stylesheet" href="assets/css/base.css">
     <link rel="stylesheet" href="assets/css/cabecalho.css">
     <link rel="stylesheet" href="assets/css/rodape.css">
+    <link rel="stylesheet" href="assets/css/cadastro.css">
     <title>AdoPet</title>
 </head>
-<body>
+<body id="tela-cadastro">
     <header class="cabecalho">
         <ul class="cabecalho__menu">
             <li class="cabecalho__menu-item"><a href="#"><img src="assets/img/Casa.png"></a></li>
             <li class="cabecalho__menu-item"><a href="#"><img src="assets/img/Mensagens.png"></a></li>
         </ul>
     </header>
+    <main>
+        <div class="logo">
+            <img src="assets/img/Logo_-_azul.svg">
+        </div>
+        <div class="texto">
+            <p>Ainda não tem cadastro?</p>
+            <p>Então, antes de buscar seu melhor amigo, precisamos de alguns dados:</p>
+        </div>
+        <form class="cadastrar">
+            <p>
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" value="Escolha seu melhor email">
+            </p>
+            <p>
+                <label for="nome">Nome</label>
+                <input type="text" name="nome" id="nome" value="Digite seu nome completo">
+            </p>
+            <p>
+                <label for="senha">Senha</label>
+                <input type="password" name="senha" id="senha" value="Crie uma senha">
+            </p>
+            <p>
+                <label for="repita_senha">Confirma sua senha</label>
+                <input type="password" name="repita_senha" id="repita_senha" value="Repita a senha criada acima">
+            </p>
+            <p class="botao">
+                <button type="submit" id="cadastrar">Cadastrar</button>
+            </p>
+        </form>
+    </main>
     <footer class="rodape">
         <p>2023 - Desenvolvido por Gustavo Monarin</p>
     </footer>

@@ -3,6 +3,11 @@
 :root {
     --cor-primaria:#36D6AD;
     --cor-secundaria: #FFFFFF;
+    --cor-terciaria: #FC7071;
+    --cor-quartenaria: #3772FF;
+    --cor-quinaria:#737380;
+    --cor-senaria:#F6F6F6;
+    --cor-septenaria:#BCBCBC;
 
     --fonte: 'Poppins', sans-serif;
 }
@@ -16,6 +21,22 @@ html {
     font-family: var(--fonte);
 }
 
-body {
-    background-color: aqua;
+#tela-inicial {
+    background-color: var(--cor-quartenaria);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between
+}
+
+#tela-cadastro {
+    background-color: var(--cor-secundaria);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between
+}
+
+header {
+    background-color: var(--cor-primaria);
 }
