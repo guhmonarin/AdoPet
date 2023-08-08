@@ -1,0 +1,72 @@
+.logo {
+    padding-top: 20px;
+    text-align: center;
+}
+
+.logo img{
+    display: inline-block;
+}
+
+.texto {    
+    text-align: center;
+}
+
+.texto p {
+    color: var(--cor-quartenaria);
+    font-size: 1rem;
+    padding: 20px 56px 0;
+    font-weight: 400;
+}
+
+.cadastrar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.cadastrar label,
+.cadastrar input {
+    display: block;
+}
+
+.cadastrar label {
+    color: var(--cor-quinaria);
+    font-size: 0.9rem;
+    font-weight: 400;
+}
+
+.cadastrar input {
+    background-color: var(--cor-senaria);
+    color: var(--cor-septenaria);
+    font-size: 0.7rem;
+    font-weight: 400;
+    height: 40px;
+    width: 312px;
+    border: none;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.cadastrar a{
+    color: var(--cor-terciaria);
+    font-size: 0.7rem;
+    font-weight: 400;
+    padding-top: 15px;
+}
+
+.botao {
+    padding-top: 15px;
+}
+
+.cadastrar button {
+    background-color: var(--cor-terciaria);
+    color: var(--cor-secundaria);
+    font-size: 1rem;
+    font-weight: 600;
+    border-radius: 10px;
+    border: none;
+    width: 180px;
+    height: 40px;
+}

@@ -21,20 +21,20 @@ html {
     font-family: var(--fonte);
 }
 
-#tela-inicial {
-    background-color: var(--cor-quartenaria);
+body {
     height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: space-between
 }
 
-#tela-cadastro {
+#tela-inicial {
+    background-color: var(--cor-quartenaria);
+    
+}
+
+#outras-paginas {
     background-color: var(--cor-secundaria);
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between
 }
 
 header {
