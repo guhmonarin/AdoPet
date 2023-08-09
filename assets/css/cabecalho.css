@@ -2,10 +2,21 @@
     display: flex;
     align-items: center;
     gap: 48px;
-    padding: 48px 48px;
+    padding: 48px 48px 0 48px;
 }
 
 .cabecalho__menu-item {
     list-style: none;
 }
 
+.cabecalho__menu-item > img {
+    display: none;
+}
+
+@media (min-width:768px) {
+    .cabecalho__menu-item > img {
+        display: inline-block;
+        width: 128px;
+        height: auto;
+    }
+}

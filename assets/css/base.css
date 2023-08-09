@@ -28,15 +28,33 @@ body {
     justify-content: space-between
 }
 
-#tela-inicial {
+.tela-inicio {
     background-color: var(--cor-quartenaria);
+}
+
+.tela-inicio, .tela-cadastro, .tela-home, .tela-login, .tela-mensagem, .tela-perfil {
+    background-image: url(../img/Forma_1.svg);
+    background-repeat: no-repeat;
+    background-size: 352px auto;
+    background-position: top left;
     
 }
 
-#outras-paginas {
-    background-color: var(--cor-secundaria);
+main {
+    background-image: url(../img/Forma_2.svg);
+    background-repeat: no-repeat;
+    background-size: auto 415px;
+    background-position: center right;
+    padding: 40px 0 0 0;
 }
 
-header {
-    background-color: var(--cor-primaria);
+@media (min-width:768px) {
+    .tela-inicio, .tela-cadastro, .tela-home, .tela-login, .tela-mensagem, .tela-perfil {
+        background-size: 560px auto;
+    }
+
+    main {
+        padding-top: 100px;
+    }
 }
+
