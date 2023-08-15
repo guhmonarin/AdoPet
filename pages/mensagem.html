@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="../assets/css/base.css">
     <link rel="stylesheet" href="../assets/css/cabecalho.css">
     <link rel="stylesheet" href="../assets/css/rodape.css">
+    <link rel="stylesheet" href="../assets/css/mensagem.css">
     <title>AdoPet</title>
 </head>
 <body class="tela-mensagem">
@@ -14,9 +15,38 @@
             <li class="cabecalho__menu-item img"><img src="../assets/img/Logo.svg" alt="logo da empresa"></li>
             <li class="cabecalho__menu-item"><a href="#"><img src="../assets/img/Casa.png"></a></li>
             <li class="cabecalho__menu-item"><a href="#"><img src="../assets/img/Mensagens.png"></a></li>
-            <li class="cabecalho__menu-item"><a href="#"><img src="../assets/img/Usuário.png"></a></li>
+            <li class="cabecalho__menu-item"></li>
+            <li class="cabecalho__menu-item"
+            id="usuario"><a href="#"><img src="../assets/img/Usuário.png"></a></li>
         </ul>
     </header>
+    <main>
+
+        <div class="texto">
+            <p>Envie uma mensagem para a pessoa ou instituição que está cuidando do animal:</p>
+        </div>
+        <form class="cadastrar">
+            <p>
+                <label for="nome">Nome</label>
+                <input type="text" name="nome" id="nome" value="Digite seu nome completo">
+            </p>
+            <p>
+                <label for="telefone">Telefone</label>
+                <input type="tel" name="telefone" id="telefone" value="Digite o seu telefone">
+            </p>
+            <p>
+                <label for="nome_animal">Nome do animal</label>
+                <input type="text" name="nome_animal" id="nome_animal" value="Digite o nome do seu animal">
+            </p>
+            <p>
+                <label for="mensagem">Mensagem</label>
+                <textarea name="mensagem" id="mensagem" cols="40" rows="10"></textarea>
+            </p>
+            <p class="botao">
+                <button type="submit" id="enviar">Enviar</button>
+            </p>
+        </form>
+    </main>
     <footer class="rodape">
         <p>2023 - Desenvolvido por Gustavo Monarin</p>
     </footer>

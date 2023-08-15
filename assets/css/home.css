@@ -67,3 +67,29 @@
     margin-right: 5px;
     vertical-align: middle;
 }
+
+@media (min-width:768px) {
+    .cards {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        margin-left: 32px;
+    }
+    .cards__item {
+        width: 350px;
+    }
+}
+
+@media (min-width:1000px) {
+    .cabecalho__menu {
+        justify-content: space-between;
+    }
+
+    #usuario {
+        margin-left: 600px;
+    }
+
+    .cards {
+        margin-left: 160px;
+    }
+}

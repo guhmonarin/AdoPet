@@ -1,0 +1,103 @@
+.cabecalho__menu {
+    justify-content: space-around;
+}
+
+.texto {    
+    text-align: center;
+}
+
+.texto p {
+    color: var(--cor-quartenaria);
+    font-size: 1rem;
+    padding: 20px 56px 0;
+    font-weight: 400;
+}
+
+.cadastrar {
+    background-color: var(--cor-senaria);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 0;
+    margin: 20px 16px;
+}
+
+.cadastrar label,
+.cadastrar input {
+    display: block;
+}
+
+.cadastrar label {
+    color: var(--cor-quartenaria);
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+
+.cadastrar input {
+    background-color: var(--cor-secundaria);
+    color: var(--cor-septenaria);
+    font-size: 0.7rem;
+    font-weight: 400;
+    height: 40px;
+    width: 312px;
+    border: none;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.cadastrar textarea {
+    background-color: var(--cor-secundaria);
+    color: var(--cor-septenaria);
+    font-size: 0.7rem;
+    font-weight: 400;
+    border: none;
+    border-radius: 8px;
+    width: 312px;
+}
+
+.botao {
+    padding-top: 15px;
+}
+
+.cadastrar button {
+    background-color: var(--cor-terciaria);
+    color: var(--cor-secundaria);
+    font-size: 1rem;
+    font-weight: 600;
+    border-radius: 10px;
+    border: none;
+    width: 180px;
+    height: 40px;
+}
+
+@media (min-width:768px) {
+    main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .texto {
+        margin-top: 16px;
+        width: 500px;
+    }
+
+    .cadastrar {
+        width: 524px;
+    }
+
+    .cadastrar input, .cadastrar textarea {
+        width: 492px;
+    }
+
+}
+
+@media (min-width:1000px) {
+    .cabecalho__menu {
+        justify-content: space-between;
+    }
+
+    #usuario {
+        margin-left: 600px;
+    }
+}
