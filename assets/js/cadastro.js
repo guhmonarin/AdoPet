@@ -1,8 +1,8 @@
 const usuariosCadastrados = [
     {
-    email:'gustavomonarin11@gmail.com',
-    nome:'gustavo',
-    senha:'gustavinho'
+    email:'teste@gmail.com',
+    nome:'teste',
+    senha:'teste'
     }
 ];
 
