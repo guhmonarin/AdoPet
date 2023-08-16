@@ -26,6 +26,12 @@
     padding: 20px 0;
 }
 
+.erro-mensagem {
+    color: var(--cor-quartenaria);
+    font-size: 0.9rem;
+    font-weight: 400;
+}
+
 .cadastrar label,
 .cadastrar input {
     display: block;

@@ -13,7 +13,7 @@
     <header class="cabecalho">
         <ul class="cabecalho__menu">
             <li class="cabecalho__menu-item img"><img src="../assets/img/Logo.svg" alt="logo da empresa"></li>
-            <li class="cabecalho__menu-item"><a href="#"><img src="../assets/img/Casa.png"></a></li>
+            <li class="cabecalho__menu-item"><a href="../index.html"><img src="../assets/img/Casa.png"></a></li>
             <li class="cabecalho__menu-item"><a href="#"><img src="../assets/img/Mensagens.png"></a></li>
         </ul>
     </header>
@@ -28,19 +28,19 @@
         <form class="cadastrar">
             <p>
                 <label for="email">Email</label>
-                <input type="email" name="email" id="email" value="Escolha seu melhor email">
+                <input type="email" name="email" id="email" value="Escolha seu melhor email" required minlength="3">
             </p>
             <p>
                 <label for="nome">Nome</label>
-                <input type="text" name="nome" id="nome" value="Digite seu nome completo">
+                <input type="text" name="nome" id="nome" value="Digite seu nome completo" required minlength="3">
             </p>
             <p>
                 <label for="senha">Senha</label>
-                <input type="password" name="senha" id="senha" value="Crie uma senha">
+                <input type="password" name="senha" id="senha" value="Crie uma senha" required minlength="8">
             </p>
             <p>
                 <label for="repita_senha">Confirma sua senha</label>
-                <input type="password" name="repita_senha" id="repita_senha" value="Repita a senha criada acima">
+                <input type="password" name="senha" id="repita_senha" value="Repita a senha criada acima" required minlength="8">
             </p>
             <p class="botao">
                 <button type="submit" id="cadastrar">Cadastrar</button>
@@ -50,5 +50,6 @@
     <footer class="rodape">
         <p>2023 - Desenvolvido por Gustavo Monarin</p>
     </footer>
+    <script src="../assets/js/cadastro.js"></script>
 </body>
 </html>
